@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* colors */
+  --label-l1: #314146;
+  --label-l2: rgba(40, 70, 80, 0.6);
+  --label-l3: rgba(40, 70, 80, 0.3);
+  --primary-p1: #4c8eb4;
+  --primary-p2: rgba(76, 142, 180, 0.12);
+  --primary-on-primary: #fafdff;
+  --secondary-p1: #4c8eb4;
+  --secondary-p2: rgba(76, 142, 180, 0.12);
+  --secondary-on-secondary: #fafdff;
+  --third-p1: #ff765c;
+  --third-p2: rgba(255, 120, 10, 0.08);
+  --third-on-third: #fafdff;
+  --playseeGray-gray1: #314146;
+  --playseeGray-gray2: #516166;
+  --playseeGray-gray3: #93a7ae;
+  --playseeGray-gray4: #cae0e8;
+  --playseeGray-gray5: #fafdff;
+  --background-b1: #f2f4f5;
+  --background-1st: #ffffff;
+  --background-2nd: #f2f4f5;
+  --background-elevated-b1: #f2f4f5;
+  --background-elevated-1st: #ffffff;
+  --background-elevated-2nd: #f2f4f5;
+  --floating: #ffffff;
+  --alert: #e32020;
+
+  --label-still-l1: #fafdff;
+  --label-still-l2: rgba(232, 249, 252, 0.6);
+  --label-still-l3: rgba(232, 249, 252, 0.3);
+  --primary-still-p1: #358bbe;
+  --primary-still-p2: rgba(53, 139, 190, 0.25);
+  --primary-still-on-primary: #fafdff;
+  --secondary-still-p1: #358bbe;
+  --secondary-still-p2: rgba(53, 139, 190, 0.25);
+  --secondary-still-on-secondary: #fafdff;
+  --third-still-p1: #ff765c;
+  --third-still-p2: rgba(255, 204, 163, 0.16);
+  --third-still-on-third: #fafdff;
+  --playseeGray-still-gray1: #fafdff;
+  --playseeGray-still-gray2: #cae0e8;
+  --playseeGray-still-gray3: #93a7ae;
+  --playseeGray-still-gray4: #516166;
+  --playseeGray-still-gray5: #314146;
+  --background-still-b1: #0c1212;
+  --background-still-1st: #202525;
+  --background-still-2nd: #353a3a;
+  --background-still-elevated-b1: #202525;
+  --background-still-elevated-1st: #353a3a;
+  --background-still-elevated-2nd: #4b5050;
+  --floating-still: #515656;
+  --alert-still: #e32020;
+
+  --overlay-light: rgba(0, 5, 5, 0.3);
+  --overlay-still: rgba(0, 5, 5, 0.6);
+  --overlay-thick: rgba(0, 5, 5, 0.85);
+
+  --glass-special-alpha-0: ;
+  --glass-special-tips: rgba(195, 213, 220, 0.4);
+  --glass-special-options: rgba(180, 194, 200, 0.15);
+  --glass-special-separators: rgba(180, 194, 200, 0.2);
+  --glass-ios-20blur-light: rgba(247, 249, 250, 0.75);
+  --glass-ios-20blur-still: rgba(69, 74, 74, 0.7);
+  --glass-android-light: rgba(255, 255, 255, 0.95);
+  --glass-android-still: rgba(69, 74, 74, 0.7);
+
+  /* font size */
+  --font-size-3xl: 30px;
+  --font-size-2xl: 20px;
+  --font-size-xl: 18px;
+  --font-size-lg: 16px;
+  --font-size-md: 14px;
+  --font-size-sm: 12px;
+  --font-size-xs: 10px;
+
+  /* line height */
+  --line-height-3xl: 36px;
+  --line-height-2xl: 24px;
+  --line-height-xl: 22px;
+  --line-height-lg: 20px;
+  --line-height-md: 18px;
+  --line-height-sm: 16px;
+  --line-height-xs: 12px;
+
+  --shadow-floating-button: 0px 12px 24px rgba(0, 0, 0, 0.07),
+    0px 0px 2px rgba(0, 0, 0, 0.06);
+  --shadow-floating-dropdown: 0px 0px 12px rgba(0, 0, 0, 0.07),
+    0px 0px 4px rgba(0, 0, 0, 0.04);
+  --shadow-toast: 0 3px 10px rgba(0, 0, 0, 0.1), 0 3px 3px rgba(0, 0, 0, 0.05);
+
+  --gradient-post: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(0, 0, 0, 0.4) 8%,
+    rgba(0, 0, 0, 0.38) 16%,
+    rgba(0, 0, 0, 0.36) 23.8%,
+    rgba(0, 0, 0, 0.33) 31.6%,
+    rgba(0, 0, 0, 0.3) 39.3%,
+    rgba(0, 0, 0, 0.26) 46.7%,
+    rgba(0, 0, 0, 0.22) 54%,
+    rgba(0, 0, 0, 0.18) 61%,
+    rgba(0, 0, 0, 0.14) 67.7%,
+    rgba(0, 0, 0, 0.1) 74.1%,
+    rgba(0, 0, 0, 0.07) 80.1%,
+    rgba(0, 0, 0, 0.04) 85.8%,
+    rgba(0, 0, 0, 0.02) 91%,
+    rgba(0, 0, 0, 0) 95.7%,
+    rgba(0, 0, 0, 0) 100%
+  );
+
+  --z-index-header: 10;
+  --z-index-mobile-nav: 10;
+  --z-index-modal: 20;
+  --z-index-modal-1: calc(var(--z-index-modal) - 1);
+  --z-index-alert: 25;
+  --z-index-alert-1: calc(var(--z-index-alert) - 1);
+  --z-index-popover: 30;
+  --z-index-popover-1: calc(var(--z-index-popover) - 1);
+  --z-index-download: 30;
+  --z-index-toast: 9999;
+
+  --fixed-top: 64px;
+
+  --left-sidebar-width: 80px;
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --left-sidebar-width: 240px;
+  }
+}
+
+@layer base {
+  body {
+    color: var(--label-l1);
+    background: white;
+  }
+  html,
+  body {
+    @apply h-full w-full;
+  }
+}
+
+@keyframes spinner-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spinner-rotate {
+  animation: spinner-rotate 1s linear infinite;
+}

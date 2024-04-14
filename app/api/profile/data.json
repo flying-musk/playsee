@@ -1,0 +1,88 @@
+{
+  "count": {
+    "follower": 21527,
+    "following": 675,
+    "following_hashtag": 4,
+    "following_location": 59,
+    "joined": 9,
+    "post": 1230,
+    "question": 28,
+    "repost": 0
+  },
+  "prefer_tab": "post",
+  "profile": {
+    "biz_info": {
+      "action_type": "1",
+      "claim_place_count": 1,
+      "country_code": "+886",
+      "cover_info": {
+        "headshot_url": "",
+        "id": "!1NMGhCcD3!",
+        "large_headshot_url": "",
+        "small_headshot_url": "",
+        "timestamp": 1601091164649,
+        "type": "0",
+        "video_headshot_url": ""
+      },
+      "email": "arkibarn1@gmail.com",
+      "is_potential_official_account": false,
+      "phone": "921222571",
+      "redirect_page": "",
+      "web": ""
+    },
+    "private_info": {
+      "allow_comment_status": "0",
+      "birthday": "",
+      "birthday_timestamp": 0,
+      "email": "",
+      "gender": "",
+      "is_apple_binding": 0,
+      "is_facebook_binding": 0,
+      "is_google_binding": 0,
+      "password_status": 0,
+      "preview": 0,
+      "uid_status": 0
+    },
+    "public_info": {
+      "about": "台灣，屏東，現住台北\n攝影📷電影🎬旅遊🏔遛小孩👶🏻\nFB✅IG✅",
+      "country_code": "",
+      "phone": ""
+    },
+    "user_browse_data": "Creator Question Type: \\nCreator Post Type: \\nUser Interests: \\n"
+  },
+  "relation": {
+    "msg_off_notice": 0,
+    "post_attention": 0,
+    "user_block": 0
+  },
+  "user": {
+    "country_code": "tw",
+    "email_verified": 1,
+    "full_name": "",
+    "head_shot": {
+      "headshot_url": "https://g-usr.playsee.co/default_headshot/animal/Animal-31_@DDFCE5.png",
+      "id": "!1NMGhCcD3!",
+      "large_headshot_url": "https://g-usr.playsee.co/default_headshot/animal/Animal-31_@DDFCE5.png",
+      "small_headshot_url": "https://g-usr.playsee.co/default_headshot/animal/Animal-31_@DDFCE5_s.png",
+      "timestamp": 0,
+      "type": "0",
+      "video_headshot_url": ""
+    },
+    "is_block": false,
+    "is_bot": 0,
+    "is_following": 0,
+    "is_private": 0,
+    "language": "zh_tw",
+    "level": 5,
+    "location": {
+      "geo_level0": "tw",
+      "geo_level1": "taipei city",
+      "geo_level2": "wenshan district",
+      "geo_level3": "木新里"
+    },
+    "name": "arkibarn",
+    "uid": "arkibarn",
+    "user_id": "!1NMGhCcD3!",
+    "verified_status": 0
+  }
+}
